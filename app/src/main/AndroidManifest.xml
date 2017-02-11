@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.github.ROS_E_Stop">
+    package="com.github.Apollo_E_Stop">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
         <activity
-            android:name=".MainActivity"
+            android:name="com.github.Apollo_E_Stop.MainActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait">
 
@@ -34,7 +34,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".CustomMasterChooserActivity">
+        <activity android:name="com.github.Apollo_E_Stop.CustomMasterChooserActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.github.ROS_E_Stop;
+package com.github.Apollo_E_Stop;
 
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -21,7 +21,6 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
-import com.github.ROS_E_Stop.R;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;

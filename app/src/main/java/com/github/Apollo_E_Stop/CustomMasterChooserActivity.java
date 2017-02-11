@@ -1,4 +1,4 @@
-package com.github.ROS_E_Stop;
+package com.github.Apollo_E_Stop;
 
 import com.google.common.base.Preconditions;
 
@@ -226,7 +226,7 @@ public class CustomMasterChooserActivity extends Activity {
         Log.d("DEBUG", "Function is running");
         super.onCreateOptionsMenu(menu);
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(com.github.ROS_E_Stop.R.menu.menu, menu);
+        inflater.inflate(com.github.Apollo_E_Stop.R.menu.menu, menu);
         return true;
     }
 }
